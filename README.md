@@ -1,10 +1,10 @@
 # esp32cam-rs
 <a href="https://github.com/Kezii/esp32cam_rs/actions"><img alt="actions" src="https://github.com/Kezii/esp32cam_rs/actions/workflows/rust.yml/badge.svg"></a>
 
-Rust esp32-cam examples
+Rust esp32-cam examples 
 
 ## Requirements
-Follow the instructions on the [esp-idf](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html) page to install the toolchain and the esp-idf, since esp32 chip is based on xtensa or risc-v architecture which is not supported by the default rust toolchain.
+Follow the instructions on the [esp-idf](https://docs.esp-rs.org/book/) page to install the toolchain and the esp-idf, since esp32 chip is based on xtensa or risc-v architecture which is not supported by the default rust toolchain.
 
 
 ### Usage
@@ -51,6 +51,8 @@ If you have an idotmatrix display, the esp32-cam will deliver an image to it eve
 https://github.com/esp-rs/std-training
 
 https://github.com/jlocash/esp-camera-rs
+
+https://github.com/ChenHuaYou/esp-cam-rs
 
 # debug
 invalid toolchain name: 'esp' means that the toolchain xtensa is not installed 
